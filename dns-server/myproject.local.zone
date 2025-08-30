@@ -1,0 +1,12 @@
+$TTL 86400
+@   IN SOA  ns1.myproject.local. root.myproject.local. (
+        2025083001 ; Serial
+        3600       ; Refresh
+        1800       ; Retry
+        1209600    ; Expire
+        86400 )    ; Minimum TTL
+
+    IN  NS  ns1.myproject.local.
+ns1 IN  A   192.168.64.130    ; DNS Server
+www IN  A   192.168.64.150    ; Web Server
+

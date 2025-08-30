@@ -1,0 +1,9 @@
+# Basic Apache Configuration (optional)
+ServerName www.myproject.local
+DocumentRoot "/var/www/html"
+
+<Directory "/var/www/html">
+    AllowOverride None
+    Require all granted
+</Directory>
+
